@@ -42,7 +42,7 @@ import time
 import requests
 
 freelancer_oauth_token = "Cw5YFE8Z9lOSZ1ow3Ldl8kFmg8jtW5"
-chat_id = "7205303595"
+chat_id = "597759575"
 
 BOT_TOKEN = "7205303595:AAH8N9lJuTV6PESVbyYMEkJ1p4yvAXyR94s"
 base_url = "https://api.telegram.org/bot" + BOT_TOKEN
