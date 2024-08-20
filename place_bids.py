@@ -39,7 +39,7 @@ import os
 import json
 
 import time
-import requests
+from security import safe_requests
 
 freelancer_oauth_token = "Cw5YFE8Z9lOSZ1ow3Ldl8kFmg8jtW5"
 chat_id = "597759575"
@@ -143,7 +143,7 @@ while True:
                                 "chat_id" : chat_id,
                                 "text" : message,     
                             }
-                            resp = requests.get(base_url + "/sendMessage", data = parameters)
+                            resp = safe_requests.get(base_url + "/sendMessage", data = parameters)
 
 
                 
